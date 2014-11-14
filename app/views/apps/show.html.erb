@@ -1,0 +1,101 @@
+<h1>Detalhe Aplicativo</h1>
+
+<p>
+  <strong>Secretaria:</strong>
+  <%= @app.secretaria.nome %>
+</p>
+<p>
+  <strong>Nome:</strong>
+  <%= @app.nome %>
+</p>
+<p>
+  <strong>Última Ação:</strong>
+  <%= lastactiontext @app.ultima_acao %>
+</p>
+<p>
+  <strong>Atualizado por:</strong>
+  <%= @app.user_acao.blank? ? "N/A" : "#{@app.user_acao}"  %>
+</p>
+<p>
+  <strong>Atualizado em:</strong>
+  <%= @app.updated_at.strftime("%d/%m/%Y %H:%m") %>
+</p>
+<p>
+  <strong>Servidores:</strong>
+
+  <table class="responsive" style="width:100%; margin-left:20px;">
+    <thead>
+      <tr>
+        <th>IP</th>
+        <th>PortaSSH</th>
+        <th>Servidor</th>
+        <th>Tipo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% for server in @app.homologacaos %>
+      <tr>
+        <td><%= server.ip %></td>
+        <td><%= server.port %></td>
+        <td><%= server.servidor %></td>
+        <td>Homologação</td>
+      </tr>
+      <% end %>
+      <% for server in @app.producaos %>
+      <tr>
+        <td><%= server.ip %></td>
+        <td><%= server.port %></td>
+        <td><%= server.servidor %></td>
+        <td>Produção</td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+</p>
+
+<p>
+  <strong>Arquivos:</strong>
+
+  <table class="responsive" style="width:100%; margin-left:20px;">
+    <thead>
+      <tr>
+        <th>Release Notes</th>
+        <th>Arquivo</th>
+        <th>Submetido em:</th>
+        <th>Por:</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% for attach in @app.attachments %>
+      <tr>
+          <td>
+            <% if (attach.release_notes.length > 30) %>
+              <span data-tooltip aria-haspopup="true" class="has-tip" title="<%= attach.release_notes %>"><%= "#{attach.release_notes.first(30)}..." %></span>
+            <%else%>
+              <%= attach.release_notes %>
+            <%end%>
+          </td>
+        <td><%= link_to("Download", attach.file_url) %></td>
+        <td><%= attach.created_at.strftime("%d/%m/%Y %H:%m") %></td>
+        <td><%= (attach.user.blank? ? "N/A" : "#{attach.user.email.first(7)}...") %></td>
+        <td><%= link_to "Destroy", app_attachment_path(@app, attach), :confirm => 'Are you sure?', :method => :delete, :remote => true %></td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+</p>
+
+<p>
+<%= render '/home/log_server' %>
+</p>
+
+
+<div class="large-12 columns centered">
+  <div class="small-12 columns">
+    &nbsp;
+  </div>
+  <div class="small-2 columns">
+    <a class="button postfix" href="javascript:history.back()">Voltar</a>
+  </div>
+</div>

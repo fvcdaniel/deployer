@@ -1,0 +1,588 @@
+10:56:15,242 INFO  [org.apache.coyote.http11] (MSC service thread 1-1) JBWEB003075: Coyote HTTP/1.1 pausing on: http-/201.18.100.29:8381
+10:56:15,271 INFO  [org.apache.coyote.http11] (MSC service thread 1-1) JBWEB003077: Coyote HTTP/1.1 stopping on : http-/201.18.100.29:8381
+10:56:15,299 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010409: Fonte de dados sem limite [java:/jboss/datasources/contrachequev2]
+10:56:15,367 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010409: Fonte de dados sem limite [java:jboss/datasources/WebContasDS]
+10:56:15,365 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) JBAS010409: Fonte de dados sem limite [java:jboss/datasources/ExampleDS]
+10:56:15,364 INFO  [org.jboss.jaxr] (MSC service thread 1-6) JBAS014002: Cancelando o Binding JAXR ConnectionFactory: java:jboss/jaxr/ConnectionFactory
+10:56:15,362 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) JBAS010410: JCA sem limite ConnectionFactory [java:/JmsXA]
+10:56:15,384 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 60) JBAS011605: Objeto de mensagem não vinculado ao nome jndi java:jboss/exported/jms/RemoteConnectionFactory
+10:56:15,427 INFO  [org.jboss.web] (ServerService Thread Pool -- 65) JBAS018224: Desregistra o contexto da web: /webfrota
+10:56:15,501 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 67) JBAS011403: Interrompendo Persistence Unit Serviço 'webfrota.war#webFrota'
+10:56:15,502 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016009: Interrupção do serviço Weld para a implantação webfrota.war
+10:56:15,506 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010409: Fonte de dados sem limite [java:jboss/datasources/WebFrotaDS]
+10:56:15,545 INFO  [org.hornetq.ra] (ServerService Thread Pool -- 60) HQ151003: HornetQ resource adaptor stopped
+10:56:16,496 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Implantação encerrada webfrota.war (runtime-name: webfrota.war) em 1205ms
+10:56:16,526 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 60) HQ221002: HornetQ Server version 2.3.12.Final (2.3.12, 123) [bfae6156-4254-11e4-aa49-f394e0b07938] stopped
+10:56:16,578 INFO  [org.jboss.as] (MSC service thread 1-8) JBAS015950: JBoss EAP 6.2.0.GA (AS 7.3.0.Final-redhat-14) interrompido em 1216ms
+10:56:56,675 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.0.Final-redhat-2
+10:56:57,485 INFO  [org.jboss.msc] (main) JBoss MSC version 1.0.4.GA-redhat-1
+10:56:57,977 INFO  [org.jboss.as] (MSC service thread 1-7) JBAS015899: Iniciando JBoss EAP 6.2.0.GA (AS 7.3.0.Final-redhat-14)
+10:56:57,993 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Propriedades de sistema configurado:
+	[Host Controller] = true
+	[Server:webfrota-server2] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /opt/jboss/jboss-eap-6.2/jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = /opt/jdk1.7.0_51/jre/lib/endorsed
+	java.ext.dirs = /opt/jdk1.7.0_51/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /opt/jdk1.7.0_51/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_51-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_51
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 24.51-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.domain.base.dir = /opt/jboss/jboss-eap-6.2/domain
+	jboss.domain.config.dir = /opt/jboss/jboss-eap-6.2/domain/configuration
+	jboss.home.dir = /opt/jboss/jboss-eap-6.2
+	jboss.host.name = prxtomcatjbosscodatahomolog
+	jboss.modules.dir = /opt/jboss/jboss-eap-6.2/modules
+	jboss.node.name = master:webfrota-server2
+	jboss.qualified.host.name = prxtomcatjbosscodatahomolog.codata.pb.gov.br
+	jboss.server.base.dir = /opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2
+	jboss.server.config.dir = /opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/configuration
+	jboss.server.data.dir = /opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/data
+	jboss.server.deploy.dir = /opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/data/content
+	jboss.server.log.dir = /opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/log
+	jboss.server.name = webfrota-server2
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/tmp
+	line.separator = 
+
+	logging.configuration = file:/opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/data/logging.properties
+	module.path = /opt/jboss/jboss-eap-6.2/modules
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.2.0-4-amd64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /opt/jdk1.7.0_51/jre/lib/resources.jar:/opt/jdk1.7.0_51/jre/lib/rt.jar:/opt/jdk1.7.0_51/jre/lib/sunrsasign.jar:/opt/jdk1.7.0_51/jre/lib/jsse.jar:/opt/jdk1.7.0_51/jre/lib/jce.jar:/opt/jdk1.7.0_51/jre/lib/charsets.jar:/opt/jdk1.7.0_51/jre/lib/jfr.jar:/opt/jdk1.7.0_51/jre/classes
+	sun.boot.library.path = /opt/jdk1.7.0_51/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /opt/jboss/jboss-eap-6.2/jboss-modules.jar -mp /opt/jboss/jboss-eap-6.2/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = BR
+	user.dir = /opt/jboss/jboss-eap-6.2
+	user.home = /home/jboss
+	user.language = pt
+	user.name = jboss
+	user.timezone = America/Fortaleza
+10:56:57,996 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Argumentos VM: -D[Server:webfrota-server2] -XX:PermSize=64m -XX:MaxPermSize=512m -Xms512m -Xmx1024m -D[Host Controller]=true -Djava.awt.headless=true -Djboss.home.dir=/opt/jboss/jboss-eap-6.2 -Djava.net.preferIPv4Stack=true -Djboss.server.log.dir=/opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/log -Djboss.server.temp.dir=/opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/tmp -Djboss.server.data.dir=/opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/data -Dlogging.configuration=file:/opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/data/logging.properties 
+10:56:58,180 INFO  [org.xnio] (MSC service thread 1-3) XNIO Version 3.0.7.GA-redhat-1
+10:56:58,186 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.0.7.GA-redhat-1
+10:56:58,236 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 3.2.18.GA-redhat-1
+10:57:10,595 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 35) JBAS013171: Ativação do Subsistema de Segurança
+10:57:10,616 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013170: Versão =4.0.19.SP2-redhat-1 PicketBox Atual
+10:57:10,862 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 31) JBAS015537: Ativação da Extensão WebServices
+10:57:10,868 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Ativação do Subsistema de Nomeação
+10:57:10,875 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 51) JBAS016300: Ativação do Subsistema JacORB
+10:57:10,881 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) JBAS010280: Ativação do subsistema Infinispan.
+10:57:10,845 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 55) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.0)
+10:57:11,455 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) JBAS012605: As seguintes implantações JSF foram ativadas: [main, 1.2]
+10:57:12,182 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 55) JBAS010403: Implantação do driver compatível-JDBC class org.h2.Driver (versão 1.3)
+10:57:12,192 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 56) JBAS016200: Ativação do Subsistema ConfigAdmin
+10:57:16,098 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-3) JBAS010408: Inicialização JCA do Subsistema (IronJacamar 1.0.23.Final-redhat-1)
+10:57:15,354 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) JBAS015400: Sessão de correio limitado [java:jboss/mail/Default]
+10:57:12,888 INFO  [org.jboss.as.naming] (MSC service thread 1-2) JBAS011802: Iniciando o Serviço de Nomeação
+10:57:19,420 INFO  [org.jboss.jaxr] (MSC service thread 1-5) JBAS014000: Subsistema JAXR iniciado, efetuando o binding 
+da criação da conexão JAXR no JNDI como: java:jboss/jaxr/ConnectionFactory
+10:57:20,300 INFO  [org.apache.coyote.http11] (MSC service thread 1-7) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/201.18.100.29:8381
+10:57:20,343 INFO  [org.apache.coyote.http11] (MSC service thread 1-7) JBWEB003000: Coyote HTTP/1.1 starting on: http-/201.18.100.29:8381
+10:57:20,392 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/data/messagingjournal,bindingsDirectory=/opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/data/messagingbindings,largeMessagesDirectory=/opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/data/messaginglargemessages,pagingDirectory=/opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/data/messagingpaging)
+10:57:20,394 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221006: Waiting to obtain live lock
+10:57:20,482 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.2.3.Final-redhat-1
+10:57:20,565 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221013: Using NIO Journal
+10:57:20,586 INFO  [org.jboss.as.jacorb] (MSC service thread 1-6) JBAS016330: Serviço CORBA ORB  iniciado
+10:57:20,978 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010400: Limite da fonte de dados [java:/jboss/datasources/contrachequev2]
+10:57:20,978 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010400: Limite da fonte de dados [java:jboss/datasources/WebContasDS]
+10:57:20,979 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010400: Limite da fonte de dados [java:jboss/datasources/WebFrotaDS]
+10:57:20,979 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Limite da fonte de dados [java:jboss/datasources/ExampleDS]
+10:57:20,980 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221034: Waiting to obtain live lock
+10:57:20,980 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221035: Live Server Obtained live lock
+10:57:21,053 INFO  [org.jboss.as.jacorb] (MSC service thread 1-6) JBAS016328: Serviço de Nomeação CORBA iniciado
+10:57:21,385 INFO  [org.jboss.as.remoting] (MSC service thread 1-8) JBAS017100: Escutando no 201.18.100.29:4748
+10:57:21,407 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Iniciando a implantação do "webfrota.war" (runtime-name: "webfrota.war")
+10:57:22,951 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221020: Started Netty Acceptor version 3.6.6.Final-redhat-1-fd3c6b7 201.18.100.29:5756 for CORE protocol
+10:57:22,964 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221020: Started Netty Acceptor version 3.6.6.Final-redhat-1-fd3c6b7 201.18.100.29:5746 for CORE protocol
+10:57:22,996 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221007: Server is now live
+10:57:22,997 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221001: HornetQ Server version 2.3.12.Final (2.3.12, 123) [bfae6156-4254-11e4-aa49-f394e0b07938] 
+10:57:23,126 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 58) JBAS011601: Objeto de mensagem vinculado ao nome jndi java:/ConnectionFactory
+10:57:23,145 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 59) JBAS011601: Objeto de mensagem vinculado ao nome jndi java:jboss/exported/jms/RemoteConnectionFactory
+10:57:23,228 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) JBAS010406: Fábrica de conexão registrada java:/JmsXA
+10:57:23,420 INFO  [org.hornetq.ra] (MSC service thread 1-1) HornetQ resource adaptor started
+10:57:23,421 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-1) IJ020002: Deployed: file://RaActivatorhornetq-ra
+10:57:23,429 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) JBAS010401: Limite JCA ConnectionFactory [java:/JmsXA]
+10:57:29,439 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015893: Foi encontrado o nome de classe inválido 'org.xmlpull.mxp1.MXParser,org.xmlpull.mxp1_serializer.MXSerializer' para o tipo de serviço 'org.xmlpull.v1.XmlPullParserFactory'
+10:57:30,049 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011401: Leia a persistence.xml para webFrota
+10:57:30,476 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) JBAS016002: Processamento da implantação weld webfrota.war
+10:57:30,965 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016005: Iniciando os  Serviços para a implantação CDI: webfrota.war
+10:57:31,081 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900 1.1.16 (redhat)
+10:57:31,156 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016008: Inicialização do serviço weld para a implantação webfrota.war
+10:57:31,162 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) JBAS011402: Iniciando Persistence Unit Serviço 'webfrota.war#webFrota'
+10:57:31,455 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 58) HCANN000001: Hibernate Commons Annotations {4.0.1.Final-redhat-2}
+10:57:31,483 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 58) HHH000412: Hibernate Core {4.2.7.SP1-redhat-3}
+10:57:31,486 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000206: hibernate.properties not found
+10:57:31,488 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000021: Bytecode provider name : javassist
+10:57:31,505 INFO  [org.hibernate.ejb.Ejb3Configuration] (ServerService Thread Pool -- 58) HHH000204: Processing PersistenceUnitInfo [
+	name: webFrota
+	...]
+10:57:31,881 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (ServerService Thread Pool -- 58) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+10:57:33,016 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+10:57:33,074 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 58) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+10:57:33,562 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (ServerService Thread Pool -- 58) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+10:57:33,566 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 58) HHH000397: Using ASTQueryTranslatorFactory
+10:57:33,611 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 58) HV000001: Hibernate Validator 4.3.1.Final-redhat-1
+10:57:34,600 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 58) HHH000228: Running hbm2ddl schema update
+10:57:34,605 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 58) HHH000102: Fetching database metadata
+10:57:34,617 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 58) HHH000396: Updating schema
+10:57:34,710 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.leiloado
+10:57:34,710 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [lote, processo, es_veiculo, tipo, anexo, observacao, leilao]
+10:57:34,710 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: [es_veiculo]
+10:57:34,711 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [fki_es_veiculo]
+10:57:34,790 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.abadiario
+10:57:34,791 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [tx_servico, codigo_cliente, valor2, placa2, hodometro, status_transacao, id, quantidade, km_atual, hora_transacao, id_status, placa, ano, hora_atual, cpf, mes_aba, cnpj_credenciado, id_servico, nome_credenciado, es_centrodecusto, id_autorizacao, cartao, data_transacao, valor, ano_aba, nome_funcionario, es_modelo, nome_cliente]
+10:57:34,791 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: [fkadf7c37cfd1852df, fkadf7c37cb038da82, fkadf7c37c356aa382]
+10:57:34,791 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [jhjsd, idx_data_transacao, idx_1]
+10:57:34,948 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.abastecimento
+10:57:34,948 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [ano_int, es_frota, es_veiculo, es_combustivel, es_centrodecusto, consumo, autorizacao, data, cartao, condutor, cota_extra, es_posto, hodometro2, hodometro, litros, deslocamento, transacao, valor, mes, tipo, placa, ano, situacao, unitario, id_abastecimento]
+10:57:34,949 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: [es_combustivel, fk1786073d9eb2b, es_centrodecusto, fk1786072c2b12d, fkd28aabe73c8ca46b]
+10:57:34,949 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [fki_es_centrodecusto, fki_es_veiculo22, fki_es_combustivel22, fki_es_veiculo2, fki_es_combustivel2]
+10:57:34,994 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.anp
+10:57:34,994 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [es_cidade, preco_medio, ano_int, es_combustivel, mes, ano, id_anp, acrescimo]
+10:57:34,995 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: [es_cidade, es_combustivelanp]
+10:57:34,995 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [fki_es_cidade_anp, fki_es_combustivelanp, id_anp]
+10:57:35,030 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.centrodecusto
+10:57:35,031 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [siaf, es_frota, nutri, rbase, adm, ege, abreviacao, id_centrodecusto, sigla, id_cc_antigo, desc_centrodecusto, poder, ok, fo, cod_centrodecusto]
+10:57:35,031 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: [fk_es_frota]
+10:57:35,031 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [id_centrodecusto]
+10:57:35,064 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.cidade
+10:57:35,065 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [id_cidade, sigla_cidade, desc_cidade]
+10:57:35,065 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: []
+10:57:35,065 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [id_cidade]
+10:57:35,101 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.combustivel
+10:57:35,102 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [desc_combustivel, id_combustivel]
+10:57:35,102 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: []
+10:57:35,103 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [pk_combustivel]
+10:57:35,140 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.condicao
+10:57:35,141 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [desc_condicao, id_condicao]
+10:57:35,141 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: []
+10:57:35,141 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [pk_condicao]
+10:57:35,174 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.cor
+10:57:35,174 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [desc_cor, id_cor]
+10:57:35,175 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: []
+10:57:35,175 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [pk_id_cor]
+10:57:35,218 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.cota_extra_centro_custo
+10:57:35,218 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [ano_cota_extr, id_cota_extr_cent_cust, id_cent_cust, quan_cota_extr, mes_cota_extr, cota_extr_mes_ativ]
+10:57:35,219 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: [fk_id_cent_cust]
+10:57:35,219 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [pk_id_centro_custo]
+10:57:35,260 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.est
+10:57:35,260 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [ano_int, pmalc, pmgas, totalfrota, pmdie, pmgnv, cmpordia, cmporveiculo, id_estatistica, litragem, valor, mes, ano, frota]
+10:57:35,261 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: [est_frota_fkey]
+10:57:35,261 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [id_estatistica, fk_frota]
+10:57:35,301 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.fabricante
+10:57:35,301 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [id_fabricante, desc_fabricante]
+10:57:35,301 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: []
+10:57:35,302 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [ix_fabricante, pk_fabricante]
+10:57:35,354 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.fatura
+10:57:35,354 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [ano_int, es_frota, es_combustivel, bruto, es_posto, bruto_corrigido, valor_corrigido, litragem, valor, mes, anp, ano, indevido, taxa_adm_corrigida, diferenca, unitario, id_fatura, taxa_adm]
+10:57:35,355 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: [es_frota, fkb39bb7ab73d9eb2b, es_combustivel_fatura, es_posto]
+10:57:35,355 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [fki_es_frota, fki_es_posto, id_fatura_fatura]
+10:57:35,394 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.frota
+10:57:35,395 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [cod_frota, rbase, desc_frota]
+10:57:35,395 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: []
+10:57:35,395 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [rbase]
+10:57:35,445 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.log
+10:57:35,445 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [hora, es_usuario, es_log_veiculo, data, id_log, operacao]
+10:57:35,446 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: [log_es_log_veiculo_fkey, log_es_usuario_fkey]
+10:57:35,446 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [fki_log_veiculo, fki_es_usuario, fki_es_veiculo_log, log_pkey, fki-log_veiculo]
+10:57:35,552 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.log_veiculo
+10:57:35,553 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [id_log_veiculo, es_centrodecusto, status, prefixo, recadastrado, renavan, cota_alerta, motorizacao, comb, observacao, tanque, chassis, acao, lotacao, ordem, anom, data_registro, cota, id_veiculo, placa, condicao, es_cc_antigo, anof, es_cor, frota, es_modelo]
+10:57:35,553 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: [status, fk4daf614fd1852df, condicao, fk4daf61448596c79, frota, es_cor, combustivel]
+10:57:35,553 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [log_veiculo_pkey]
+10:57:35,596 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.modelo_veiculo
+10:57:35,597 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [desc_modelo, id_modelo, es_fabricante]
+10:57:35,597 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: [fk_modelo_veiculo_fabricante]
+10:57:35,597 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [pk_modelo_veiculo]
+10:57:35,639 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.municipio
+10:57:35,639 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [post_abas, id_mun, sigl_muni, descricao]
+10:57:35,639 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: []
+10:57:35,640 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [municipio_pkey]
+10:57:35,685 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.posto
+10:57:35,686 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [es_cidade, id_posto, rbase_posto, desc_posto]
+10:57:35,686 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: [es_cidade2]
+10:57:35,686 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [rbase_posto2, fki_es_cidade2]
+10:57:35,735 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.rota_abastecimento_veiculo
+10:57:35,736 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [id_muni, quan_abas, mes, id_soli_cota_extr, ano, id_rota_abas_veic]
+10:57:35,736 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: [fk264722a2bf676d52, id_soli_cota_extr]
+10:57:35,736 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [id_rota_abas_veic]
+10:57:35,782 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.rota_veiculo
+10:57:35,782 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [id_muni, id_soli_cota_extr, id_rota_veic]
+10:57:35,783 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: [fk7c794e3ac1567558, fk7c794e3abf676d52, fk_id_muni]
+10:57:35,783 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [fki_id_muni]
+10:57:35,828 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.solicitacao
+10:57:35,829 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [status, data_cada, desc_soli, obse_auto, data_auto, logi_auto, data_volt, id_soli, stat_soli, ativa, plac_veic_soli, data_ida, login, data_soli, nume_memo, auto_soli]
+10:57:35,829 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: [fk259496a589a20175, fk259496a51c34a215]
+10:57:35,829 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [solicitacao_pkey]
+10:57:35,869 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.status
+10:57:35,869 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [id_status, desc_status]
+10:57:35,869 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: []
+10:57:35,869 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [pk_status]
+10:57:35,914 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.usuario
+10:57:35,914 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [contato, setor, es_centrodecusto, role, nome, login, password, matricula]
+10:57:35,914 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: [fkf814f32e48596c79]
+10:57:35,914 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [usuario_pk]
+10:57:36,036 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000261: Table found: public.veiculo
+10:57:36,036 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000037: Columns: [jpaf, anexo, prefixo, tanque, reconhecido, chassis, lote, lotacao, ordem, anom, placa, id_veiculo, anof, frota, es_cor, processo, es_centrodecusto, status, renavan, recadastrado, cota_alerta, comb, motorizacao, observacao, acao, cota, data_registro, condicao, modelo, es_modelo]
+10:57:36,037 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000108: Foreign keys: [fk146f300f48596c79, es_centrodecusto, status, condicao, fk146f300ffd1852df, frota, es_cor, combustivel]
+10:57:36,037 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 58) HHH000126: Indexes: [fki_es_cor22, fki_condicao22, fki_combustivel22, fki_frota22, fki_status22, fki_modelo22, fki_es_centrodecusto22, pk_veiculo2]
+10:57:36,038 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 58) HHH000232: Schema update complete
+10:57:36,039 WARN  [org.hibernate.internal.SessionFactoryImpl] (ServerService Thread Pool -- 58) HHH000008: JTASessionContext being used with JDBCTransactionFactory; auto-flush will not operate correctly with getCurrentSession()
+10:57:39,809 INFO  [org.jboss.web] (ServerService Thread Pool -- 63) JBAS018210: Registra o contexto da web: /webfrota
+10:57:39,878 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 63) Inicializando Mojarra 2.1.19-jbossorg-1 20131024-0833 para o contexto '/webfrota'
+10:57:42,419 WARNING [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 63) JSF1025: [/webfrota] O parâmetro de inicialização de contexto 'facelets.LIBRARIES' está desaprovado.  A opção continuará configurada, mas use 'javax.faces.FACELETS_LIBRARIES' no futuro.
+10:57:42,419 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 63) JSF1019: [/webfrota] A opção de configuração 'javax.faces.FACELETS_LIBRARIES' foi REDEFINIDA para '/WEB-INF/componentes/facelets.taglib.xml'
+10:57:42,509 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS018559: Implantado "webfrota.war" (runtime-name: "webfrota.war")
+10:57:42,518 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.2.0.GA (AS 7.3.0.Final-redhat-14) iniciado em 49933ms - Iniciado 244 de serviços 318 (os serviços 70 são passivos ou em demanda)
+11:05:06,940 INFO  [org.apache.coyote.http11] (MSC service thread 1-8) JBWEB003075: Coyote HTTP/1.1 pausing on: http-/201.18.100.29:8381
+11:05:06,974 INFO  [org.apache.coyote.http11] (MSC service thread 1-8) JBWEB003077: Coyote HTTP/1.1 stopping on : http-/201.18.100.29:8381
+11:05:07,041 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010410: JCA sem limite ConnectionFactory [java:/JmsXA]
+11:05:07,051 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010409: Fonte de dados sem limite [java:jboss/datasources/ExampleDS]
+11:05:07,052 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010409: Fonte de dados sem limite [java:/jboss/datasources/contrachequev2]
+11:05:07,055 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 65) JBAS011605: Objeto de mensagem não vinculado ao nome jndi java:jboss/exported/jms/RemoteConnectionFactory
+11:05:07,078 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010409: Fonte de dados sem limite [java:jboss/datasources/WebContasDS]
+11:05:07,052 INFO  [org.jboss.jaxr] (MSC service thread 1-8) JBAS014002: Cancelando o Binding JAXR ConnectionFactory: java:jboss/jaxr/ConnectionFactory
+11:05:07,106 INFO  [org.jboss.web] (ServerService Thread Pool -- 65) JBAS018224: Desregistra o contexto da web: /webfrota
+11:05:07,265 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) JBAS011403: Interrompendo Persistence Unit Serviço 'webfrota.war#webFrota'
+11:05:07,273 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016009: Interrupção do serviço Weld para a implantação webfrota.war
+11:05:07,300 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010409: Fonte de dados sem limite [java:jboss/datasources/WebFrotaDS]
+11:05:07,315 INFO  [org.hornetq.ra] (ServerService Thread Pool -- 66) HQ151003: HornetQ resource adaptor stopped
+11:05:07,461 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221002: HornetQ Server version 2.3.12.Final (2.3.12, 123) [bfae6156-4254-11e4-aa49-f394e0b07938] stopped
+11:05:07,464 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Implantação encerrada webfrota.war (runtime-name: webfrota.war) em 552ms
+11:05:07,495 INFO  [org.jboss.as] (MSC service thread 1-7) JBAS015950: JBoss EAP 6.2.0.GA (AS 7.3.0.Final-redhat-14) interrompido em 508ms
+11:05:41,244 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.0.Final-redhat-2
+11:05:45,285 INFO  [org.jboss.msc] (main) JBoss MSC version 1.0.4.GA-redhat-1
+11:05:45,435 INFO  [org.jboss.as] (MSC service thread 1-8) JBAS015899: Iniciando JBoss EAP 6.2.0.GA (AS 7.3.0.Final-redhat-14)
+11:05:45,473 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Propriedades de sistema configurado:
+	[Host Controller] = true
+	[Server:webfrota-server2] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /opt/jboss/jboss-eap-6.2/jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = /opt/jdk1.7.0_51/jre/lib/endorsed
+	java.ext.dirs = /opt/jdk1.7.0_51/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /opt/jdk1.7.0_51/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_51-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_51
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 24.51-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.domain.base.dir = /opt/jboss/jboss-eap-6.2/domain
+	jboss.domain.config.dir = /opt/jboss/jboss-eap-6.2/domain/configuration
+	jboss.home.dir = /opt/jboss/jboss-eap-6.2
+	jboss.host.name = prxtomcatjbosscodatahomolog
+	jboss.modules.dir = /opt/jboss/jboss-eap-6.2/modules
+	jboss.node.name = master:webfrota-server2
+	jboss.qualified.host.name = prxtomcatjbosscodatahomolog.codata.pb.gov.br
+	jboss.server.base.dir = /opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2
+	jboss.server.config.dir = /opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/configuration
+	jboss.server.data.dir = /opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/data
+	jboss.server.deploy.dir = /opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/data/content
+	jboss.server.log.dir = /opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/log
+	jboss.server.name = webfrota-server2
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/tmp
+	line.separator = 
+
+	logging.configuration = file:/opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/data/logging.properties
+	module.path = /opt/jboss/jboss-eap-6.2/modules
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.2.0-4-amd64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /opt/jdk1.7.0_51/jre/lib/resources.jar:/opt/jdk1.7.0_51/jre/lib/rt.jar:/opt/jdk1.7.0_51/jre/lib/sunrsasign.jar:/opt/jdk1.7.0_51/jre/lib/jsse.jar:/opt/jdk1.7.0_51/jre/lib/jce.jar:/opt/jdk1.7.0_51/jre/lib/charsets.jar:/opt/jdk1.7.0_51/jre/lib/jfr.jar:/opt/jdk1.7.0_51/jre/classes
+	sun.boot.library.path = /opt/jdk1.7.0_51/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /opt/jboss/jboss-eap-6.2/jboss-modules.jar -mp /opt/jboss/jboss-eap-6.2/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = BR
+	user.dir = /opt/jboss/jboss-eap-6.2
+	user.home = /home/jboss
+	user.language = pt
+	user.name = jboss
+	user.timezone = America/Fortaleza
+11:05:45,476 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Argumentos VM: -D[Server:webfrota-server2] -XX:PermSize=64m -XX:MaxPermSize=512m -Xms512m -Xmx1024m -D[Host Controller]=true -Djava.awt.headless=true -Djboss.home.dir=/opt/jboss/jboss-eap-6.2 -Djava.net.preferIPv4Stack=true -Djboss.server.log.dir=/opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/log -Djboss.server.temp.dir=/opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/tmp -Djboss.server.data.dir=/opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/data -Dlogging.configuration=file:/opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/data/logging.properties 
+11:05:45,563 INFO  [org.xnio] (MSC service thread 1-1) XNIO Version 3.0.7.GA-redhat-1
+11:05:45,568 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.0.7.GA-redhat-1
+11:05:45,577 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 3.2.18.GA-redhat-1
+11:05:50,338 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 35) JBAS013171: Ativação do Subsistema de Segurança
+11:05:50,373 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 31) JBAS015537: Ativação da Extensão WebServices
+11:05:50,365 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013170: Versão =4.0.19.SP2-redhat-1 PicketBox Atual
+11:05:50,417 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 56) JBAS016200: Ativação do Subsistema ConfigAdmin
+11:05:50,455 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Ativação do Subsistema de Nomeação
+11:05:50,464 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 51) JBAS016300: Ativação do Subsistema JacORB
+11:05:50,455 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) JBAS012605: As seguintes implantações JSF foram ativadas: [main, 1.2]
+11:05:50,472 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) JBAS010280: Ativação do subsistema Infinispan.
+11:05:50,468 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 55) JBAS010404: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.0)
+11:05:54,352 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 55) JBAS010403: Implantação do driver compatível-JDBC class org.h2.Driver (versão 1.3)
+11:05:54,393 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Iniciando o Serviço de Nomeação
+11:05:54,400 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-4) JBAS010408: Inicialização JCA do Subsistema (IronJacamar 1.0.23.Final-redhat-1)
+11:05:54,425 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) JBAS015400: Sessão de correio limitado [java:jboss/mail/Default]
+11:05:54,538 INFO  [org.jboss.jaxr] (MSC service thread 1-1) JBAS014000: Subsistema JAXR iniciado, efetuando o binding 
+da criação da conexão JAXR no JNDI como: java:jboss/jaxr/ConnectionFactory
+11:05:55,032 INFO  [org.apache.coyote.http11] (MSC service thread 1-1) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/201.18.100.29:8381
+11:05:55,066 INFO  [org.apache.coyote.http11] (MSC service thread 1-1) JBWEB003000: Coyote HTTP/1.1 starting on: http-/201.18.100.29:8381
+11:05:55,080 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/data/messagingjournal,bindingsDirectory=/opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/data/messagingbindings,largeMessagesDirectory=/opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/data/messaginglargemessages,pagingDirectory=/opt/jboss/jboss-eap-6.2/domain/servers/webfrota-server2/data/messagingpaging)
+11:05:55,082 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221006: Waiting to obtain live lock
+11:05:55,216 INFO  [org.jboss.as.jacorb] (MSC service thread 1-2) JBAS016330: Serviço CORBA ORB  iniciado
+11:05:55,222 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.2.3.Final-redhat-1
+11:05:55,233 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221013: Using NIO Journal
+11:05:55,543 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Limite da fonte de dados [java:jboss/datasources/WebFrotaDS]
+11:05:55,545 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Limite da fonte de dados [java:/jboss/datasources/contrachequev2]
+11:05:55,550 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Limite da fonte de dados [java:jboss/datasources/ExampleDS]
+11:05:55,551 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Limite da fonte de dados [java:jboss/datasources/WebContasDS]
+11:05:55,559 INFO  [org.jboss.as.jacorb] (MSC service thread 1-7) JBAS016328: Serviço de Nomeação CORBA iniciado
+11:05:55,710 INFO  [org.jboss.as.remoting] (MSC service thread 1-4) JBAS017100: Escutando no 201.18.100.29:4748
+11:05:55,713 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015876: Iniciando a implantação do "webfrota.war" (runtime-name: "webfrota.war")
+11:06:02,105 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221034: Waiting to obtain live lock
+11:06:02,106 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221035: Live Server Obtained live lock
+11:06:10,542 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221020: Started Netty Acceptor version 3.6.6.Final-redhat-1-fd3c6b7 201.18.100.29:5746 for CORE protocol
+11:06:10,724 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221020: Started Netty Acceptor version 3.6.6.Final-redhat-1-fd3c6b7 201.18.100.29:5756 for CORE protocol
+11:06:10,964 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221007: Server is now live
+11:06:10,964 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221001: HornetQ Server version 2.3.12.Final (2.3.12, 123) [bfae6156-4254-11e4-aa49-f394e0b07938] 
+11:06:11,036 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 58) JBAS011601: Objeto de mensagem vinculado ao nome jndi java:/ConnectionFactory
+11:06:11,040 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 59) JBAS011601: Objeto de mensagem vinculado ao nome jndi java:jboss/exported/jms/RemoteConnectionFactory
+11:06:11,276 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) JBAS010406: Fábrica de conexão registrada java:/JmsXA
+11:06:11,412 INFO  [org.hornetq.ra] (MSC service thread 1-3) HornetQ resource adaptor started
+11:06:11,412 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-3) IJ020002: Deployed: file://RaActivatorhornetq-ra
+11:06:11,415 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) JBAS010401: Limite JCA ConnectionFactory [java:/JmsXA]
+11:06:14,117 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015893: Foi encontrado o nome de classe inválido 'org.xmlpull.mxp1.MXParser,org.xmlpull.mxp1_serializer.MXSerializer' para o tipo de serviço 'org.xmlpull.v1.XmlPullParserFactory'
+11:06:14,419 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011401: Leia a persistence.xml para webFrota
+11:06:14,777 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016002: Processamento da implantação weld webfrota.war
+11:06:15,066 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016005: Iniciando os  Serviços para a implantação CDI: webfrota.war
+11:06:15,142 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900 1.1.16 (redhat)
+11:06:15,208 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) JBAS011402: Iniciando Persistence Unit Serviço 'webfrota.war#webFrota'
+11:06:15,211 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016008: Inicialização do serviço weld para a implantação webfrota.war
+11:06:15,469 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {4.0.1.Final-redhat-2}
+11:06:15,474 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {4.2.7.SP1-redhat-3}
+11:06:15,487 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+11:06:15,489 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
+11:06:15,520 INFO  [org.hibernate.ejb.Ejb3Configuration] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: webFrota
+	...]
+11:06:15,868 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (ServerService Thread Pool -- 59) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+11:06:17,432 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+11:06:18,045 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 59) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+11:06:18,741 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (ServerService Thread Pool -- 59) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+11:06:18,756 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 59) HHH000397: Using ASTQueryTranslatorFactory
+11:06:18,840 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 59) HV000001: Hibernate Validator 4.3.1.Final-redhat-1
+11:06:20,219 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 59) HHH000228: Running hbm2ddl schema update
+11:06:20,220 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 59) HHH000102: Fetching database metadata
+11:06:20,239 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 59) HHH000396: Updating schema
+11:06:20,324 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.leiloado
+11:06:20,324 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [lote, processo, es_veiculo, tipo, anexo, observacao, leilao]
+11:06:20,325 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: [es_veiculo]
+11:06:20,325 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [fki_es_veiculo]
+11:06:20,403 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.abadiario
+11:06:20,403 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [tx_servico, codigo_cliente, valor2, placa2, hodometro, status_transacao, id, quantidade, km_atual, hora_transacao, id_status, placa, ano, hora_atual, cpf, mes_aba, cnpj_credenciado, id_servico, nome_credenciado, es_centrodecusto, id_autorizacao, cartao, data_transacao, valor, ano_aba, nome_funcionario, es_modelo, nome_cliente]
+11:06:20,403 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: [fkadf7c37cfd1852df, fkadf7c37cb038da82, fkadf7c37c356aa382]
+11:06:20,404 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [jhjsd, idx_data_transacao, idx_1]
+11:06:20,592 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.abastecimento
+11:06:20,592 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [ano_int, es_frota, es_veiculo, es_combustivel, es_centrodecusto, consumo, autorizacao, data, cartao, condutor, cota_extra, es_posto, hodometro2, hodometro, litros, deslocamento, transacao, valor, mes, tipo, placa, ano, situacao, unitario, id_abastecimento]
+11:06:20,592 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: [es_combustivel, fk1786073d9eb2b, es_centrodecusto, fk1786072c2b12d, fkd28aabe73c8ca46b]
+11:06:20,593 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [fki_es_centrodecusto, fki_es_veiculo22, fki_es_combustivel22, fki_es_veiculo2, fki_es_combustivel2]
+11:06:20,653 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.anp
+11:06:20,653 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [es_cidade, preco_medio, ano_int, es_combustivel, mes, ano, id_anp, acrescimo]
+11:06:20,653 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: [es_cidade, es_combustivelanp]
+11:06:20,654 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [fki_es_cidade_anp, fki_es_combustivelanp, id_anp]
+11:06:20,959 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.centrodecusto
+11:06:20,976 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [siaf, es_frota, nutri, rbase, adm, ege, abreviacao, id_centrodecusto, sigla, id_cc_antigo, desc_centrodecusto, poder, ok, fo, cod_centrodecusto]
+11:06:20,977 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: [fk_es_frota]
+11:06:20,978 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [id_centrodecusto]
+11:06:21,049 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.cidade
+11:06:21,050 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [id_cidade, sigla_cidade, desc_cidade]
+11:06:21,050 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: []
+11:06:21,050 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [id_cidade]
+11:06:21,095 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.combustivel
+11:06:21,095 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [desc_combustivel, id_combustivel]
+11:06:21,095 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: []
+11:06:21,095 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [pk_combustivel]
+11:06:21,145 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.condicao
+11:06:21,145 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [desc_condicao, id_condicao]
+11:06:21,145 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: []
+11:06:21,146 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [pk_condicao]
+11:06:21,195 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.cor
+11:06:21,196 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [desc_cor, id_cor]
+11:06:21,196 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: []
+11:06:21,196 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [pk_id_cor]
+11:06:21,272 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.cota_extra_centro_custo
+11:06:21,272 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [ano_cota_extr, id_cota_extr_cent_cust, id_cent_cust, quan_cota_extr, mes_cota_extr, cota_extr_mes_ativ]
+11:06:21,272 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: [fk_id_cent_cust]
+11:06:21,272 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [pk_id_centro_custo]
+11:06:21,324 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.est
+11:06:21,325 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [ano_int, pmalc, pmgas, totalfrota, pmdie, pmgnv, cmpordia, cmporveiculo, id_estatistica, litragem, valor, mes, ano, frota]
+11:06:21,325 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: [est_frota_fkey]
+11:06:21,325 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [id_estatistica, fk_frota]
+11:06:21,369 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.fabricante
+11:06:21,369 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [id_fabricante, desc_fabricante]
+11:06:21,369 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: []
+11:06:21,369 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [ix_fabricante, pk_fabricante]
+11:06:21,418 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.fatura
+11:06:21,419 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [ano_int, es_frota, es_combustivel, bruto, es_posto, bruto_corrigido, valor_corrigido, litragem, valor, mes, anp, ano, indevido, taxa_adm_corrigida, diferenca, unitario, id_fatura, taxa_adm]
+11:06:21,419 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: [es_frota, fkb39bb7ab73d9eb2b, es_combustivel_fatura, es_posto]
+11:06:21,419 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [fki_es_frota, fki_es_posto, id_fatura_fatura]
+11:06:21,462 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.frota
+11:06:21,462 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [cod_frota, rbase, desc_frota]
+11:06:21,463 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: []
+11:06:21,463 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [rbase]
+11:06:21,513 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.log
+11:06:21,513 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [hora, es_usuario, es_log_veiculo, data, id_log, operacao]
+11:06:21,514 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: [log_es_log_veiculo_fkey, log_es_usuario_fkey]
+11:06:21,514 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [fki_log_veiculo, fki_es_usuario, fki_es_veiculo_log, log_pkey, fki-log_veiculo]
+11:06:21,616 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.log_veiculo
+11:06:21,617 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [id_log_veiculo, es_centrodecusto, status, prefixo, recadastrado, renavan, cota_alerta, motorizacao, comb, observacao, tanque, chassis, acao, lotacao, ordem, anom, data_registro, cota, id_veiculo, placa, condicao, es_cc_antigo, anof, es_cor, frota, es_modelo]
+11:06:21,617 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: [status, fk4daf614fd1852df, condicao, fk4daf61448596c79, frota, es_cor, combustivel]
+11:06:21,617 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [log_veiculo_pkey]
+11:06:21,672 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.modelo_veiculo
+11:06:21,672 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [desc_modelo, id_modelo, es_fabricante]
+11:06:21,672 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: [fk_modelo_veiculo_fabricante]
+11:06:21,672 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [pk_modelo_veiculo]
+11:06:21,728 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.municipio
+11:06:21,728 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [post_abas, id_mun, sigl_muni, descricao]
+11:06:21,729 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: []
+11:06:21,729 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [municipio_pkey]
+11:06:21,773 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.posto
+11:06:21,773 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [es_cidade, id_posto, rbase_posto, desc_posto]
+11:06:21,773 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: [es_cidade2]
+11:06:21,773 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [rbase_posto2, fki_es_cidade2]
+11:06:21,828 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.rota_abastecimento_veiculo
+11:06:21,828 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [id_muni, quan_abas, mes, id_soli_cota_extr, ano, id_rota_abas_veic]
+11:06:21,828 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: [fk264722a2bf676d52, id_soli_cota_extr]
+11:06:21,828 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [id_rota_abas_veic]
+11:06:21,868 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.rota_veiculo
+11:06:21,868 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [id_muni, id_soli_cota_extr, id_rota_veic]
+11:06:21,868 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: [fk7c794e3ac1567558, fk7c794e3abf676d52, fk_id_muni]
+11:06:21,869 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [fki_id_muni]
+11:06:21,929 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.solicitacao
+11:06:21,930 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [status, data_cada, desc_soli, obse_auto, data_auto, logi_auto, data_volt, id_soli, stat_soli, ativa, plac_veic_soli, data_ida, login, data_soli, nume_memo, auto_soli]
+11:06:21,930 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: [fk259496a589a20175, fk259496a51c34a215]
+11:06:21,930 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [solicitacao_pkey]
+11:06:21,969 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.status
+11:06:21,969 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [id_status, desc_status]
+11:06:21,969 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: []
+11:06:21,970 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [pk_status]
+11:06:22,007 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.usuario
+11:06:22,007 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [contato, setor, es_centrodecusto, role, nome, login, password, matricula]
+11:06:22,008 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: [fkf814f32e48596c79]
+11:06:22,008 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [usuario_pk]
+11:06:22,118 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000261: Table found: public.veiculo
+11:06:22,118 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000037: Columns: [jpaf, anexo, prefixo, tanque, reconhecido, chassis, lote, lotacao, ordem, anom, placa, id_veiculo, anof, frota, es_cor, processo, es_centrodecusto, status, renavan, recadastrado, cota_alerta, comb, motorizacao, observacao, acao, cota, data_registro, condicao, modelo, es_modelo]
+11:06:22,118 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000108: Foreign keys: [fk146f300f48596c79, es_centrodecusto, status, condicao, fk146f300ffd1852df, frota, es_cor, combustivel]
+11:06:22,119 INFO  [org.hibernate.tool.hbm2ddl.TableMetadata] (ServerService Thread Pool -- 59) HHH000126: Indexes: [fki_es_cor22, fki_condicao22, fki_combustivel22, fki_frota22, fki_status22, fki_modelo22, fki_es_centrodecusto22, pk_veiculo2]
+11:06:22,121 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 59) HHH000232: Schema update complete
+11:06:22,121 WARN  [org.hibernate.internal.SessionFactoryImpl] (ServerService Thread Pool -- 59) HHH000008: JTASessionContext being used with JDBCTransactionFactory; auto-flush will not operate correctly with getCurrentSession()
+11:06:26,574 INFO  [org.jboss.web] (ServerService Thread Pool -- 63) JBAS018210: Registra o contexto da web: /webfrota
+11:06:26,682 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 63) Inicializando Mojarra 2.1.19-jbossorg-1 20131024-0833 para o contexto '/webfrota'
+11:06:29,244 WARNING [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 63) JSF1025: [/webfrota] O parâmetro de inicialização de contexto 'facelets.LIBRARIES' está desaprovado.  A opção continuará configurada, mas use 'javax.faces.FACELETS_LIBRARIES' no futuro.
+11:06:29,244 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 63) JSF1019: [/webfrota] A opção de configuração 'javax.faces.FACELETS_LIBRARIES' foi REDEFINIDA para '/WEB-INF/componentes/facelets.taglib.xml'
+11:06:29,313 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS018559: Implantado "webfrota.war" (runtime-name: "webfrota.war")
+11:06:29,329 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.2.0.GA (AS 7.3.0.Final-redhat-14) iniciado em 54776ms - Iniciado 244 de serviços 318 (os serviços 70 são passivos ou em demanda)
+11:07:00,697 INFO  [org.jboss.as.controller] (MSC service thread 1-7) JBAS014774: Relatório
+ de status de serviço JBAS014775: Não falta/insatisfaz nenhuma das dependências:
+service jboss.server.controller.management.security_realm.ApplicationRealm.properties_authentication (faltam) dependentes: [service jboss.server.controller.management.security_realm.ApplicationRealm] 
+
+11:07:00,864 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-8) JBAS010410: JCA sem limite ConnectionFactory [java:/JmsXA]
+11:07:00,869 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010409: Fonte de dados sem limite [java:jboss/datasources/ExampleDS]
+11:07:00,870 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010409: Fonte de dados sem limite [java:/jboss/datasources/contrachequev2]
+11:07:00,871 INFO  [org.jboss.jaxr] (MSC service thread 1-5) JBAS014002: Cancelando o Binding JAXR ConnectionFactory: java:jboss/jaxr/ConnectionFactory
+11:07:00,899 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010409: Fonte de dados sem limite [java:jboss/datasources/WebContasDS]
+11:07:00,902 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 66) JBAS011605: Objeto de mensagem não vinculado ao nome jndi java:/ConnectionFactory
+11:07:00,874 INFO  [org.apache.coyote.http11] (MSC service thread 1-2) JBWEB003075: Coyote HTTP/1.1 pausing on: http-/201.18.100.29:8381
+11:07:00,904 INFO  [org.apache.coyote.http11] (MSC service thread 1-2) JBWEB003077: Coyote HTTP/1.1 stopping on : http-/201.18.100.29:8381
+11:07:00,994 INFO  [org.jboss.web] (ServerService Thread Pool -- 69) JBAS018224: Desregistra o contexto da web: /webfrota
+11:07:01,190 INFO  [org.hornetq.ra] (ServerService Thread Pool -- 66) HQ151003: HornetQ resource adaptor stopped
+11:07:01,195 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016009: Interrupção do serviço Weld para a implantação webfrota.war
+11:07:01,213 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 73) JBAS011403: Interrompendo Persistence Unit Serviço 'webfrota.war#webFrota'
+11:07:01,226 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010409: Fonte de dados sem limite [java:jboss/datasources/WebFrotaDS]
+11:07:01,315 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 66) HQ221002: HornetQ Server version 2.3.12.Final (2.3.12, 123) [bfae6156-4254-11e4-aa49-f394e0b07938] stopped
+11:07:01,379 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015877: Implantação encerrada webfrota.war (runtime-name: webfrota.war) em 656ms
+11:07:01,381 INFO  [org.jboss.as.controller] (MSC service thread 1-7) JBAS014774: Relatório
+ de status de serviço JBAS014776: Serviços recém corrigidos:
+service jboss.server.controller.management.security_realm.ApplicationRealm.properties_authentication (não mais solicitado)
+
+11:07:01,439 INFO  [org.jboss.as] (MSC service thread 1-7) JBAS015950: JBoss EAP 6.2.0.GA (AS 7.3.0.Final-redhat-14) interrompido em 602ms

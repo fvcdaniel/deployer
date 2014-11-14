@@ -1,0 +1,36 @@
+<br />
+<table class="responsive" style="width:100%">
+  <thead>
+    <tr>
+      <th>IP:Porta</th>
+      <th>Path</th>
+      <!-- <th>Deploy Path</th> -->
+      <!-- <th>Deploy User</th> -->
+      <th>Servidor</th>
+      <th>Atualizado em</th>
+      <!-- <th>Criado em</th> -->
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @appservers.each do |a| %>
+    <tr>
+      <td><%= "#{a.ip}:#{a.port}" %></td>
+      <td><%= a.path %></td>
+      <!-- <td><%= a.dpath %></td> -->
+      <!-- <td><%= a.duser %></td> -->
+      <td><%= a.servidor %></td>
+      <!-- <td><%= a.created_at%></td> -->
+      <td><%= a.updated_at.strftime("%d/%m/%Y") %></td>
+      <td>
+        <a class="button tiny success" href="/deployer/start?s=<%= a.id %>" target="_blank" style="margin:0">Start</a>
+        <a class="button tiny alert" href="/deployer/stop?s=<%= a.id %>" target="_blank" style="margin:0">Stop</a>
+        <a class="button tiny" href="/deployer/restart?s=<%= a.id %>" target="_blank" style="margin:0">Restart</a>
+        <a class="button tiny" href="/deployer/status?s=<%= a.id %>" target="_blank" style="margin-top:4px">Status</a>
+        <a class="button tiny" href="<%= "/home/apps?server=#{a.id}" %>" target="_blank" style="margin-top:4px">Apps</a>
+      </td>
+    </tr>
+    <% end %>
+  </tbody>
+
+</table>

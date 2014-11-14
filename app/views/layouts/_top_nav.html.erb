@@ -1,0 +1,48 @@
+<nav class="top-bar" data-topbar> 
+	<ul class="title-area"> 
+		<li class="name"> 
+			<h1><a href="/">CDep</a></h1> 
+		</li> 
+		<li class="toggle-topbar menu-icon">
+			<a href="#">Menu</a>
+		</li> 
+	</ul> 
+	<section class="top-bar-section"> 
+		<!-- Right Nav Section --> 
+		<ul class="right"> 
+			<li class="active">
+				<a href="/home/request_dep">Requisitar Deploy</a>
+			</li> 
+			<%= render 'layouts/navigation' %>
+			<% if user_signed_in? and  ( (can? :update, App.new ) or (can? :update, Appserver.new ) or (can? :update, Secretaria.new ) )%>
+				<li class="has-dropdown"> 
+					<a href="#">Listar</a> 
+					<ul class="dropdown"> 
+						<% if can? :update, Secretaria.new %> <li><a href="/home/secretarias">Secretarias</a></li> <%end%>
+						<% if can? :update, Appserver.new %><li><a href="/home/appservers">Servidores / Conteiners Web</a></li> <%end%>
+						<% if can? :update, App.new %><li><a href="/home/apps">Aplicações</a></li> <%end%>
+					</ul> 
+				</li> 
+				<li>
+			    	<%= link_to 'Admin', admin_root_path, :class => 'h-link-topo' %>
+			    </li>
+			<%end%>
+		</ul> <!-- Left Nav Section --> 
+		<ul class="left"> 
+			<li><a href="#">Codata Deployer Ultimate App</a></li> 
+		</ul> 
+	</section> 
+</nav>
+<!-- <div class="row">
+    <div class="large-3 columns">
+      <h1><img src="http://placehold.it/400x100&amp;text=Logo"></h1>
+    </div>
+    <div class="large-9 columns">
+      <ul class="right button-group">
+      <li><a class="button" href="#">Link 1</a></li>
+      <li><a class="button" href="#">Link 2</a></li>
+      <li><a class="button" href="#">Link 3</a></li>
+      <li><a class="button" href="#">Link 4</a></li>
+      </ul>
+  </div>
+  </div> -->

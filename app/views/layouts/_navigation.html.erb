@@ -1,0 +1,28 @@
+  <% if user_signed_in? %>
+  
+    <li>
+    <%= link_to 'Logout', destroy_user_session_path, :method=>'delete', :class => 'h-link-topo' %>
+    </li>
+    
+  <% else %>
+  
+    <li>
+    <%= link_to ("Fazer login"), new_user_session_path, :class => 'h-link-topo' %>
+    </li>
+    
+  <% end %>
+  
+  <% if user_signed_in? %>
+    <!-- 
+    <li>
+     <%= link_to 'Editar conta', edit_user_registration_path, :class => 'h-link-topo' %>
+    </li>
+    -->
+  <% else %>
+  
+    <<li>
+    <%= link_to ('Cadastrar'), new_user_registration_path, :class => 'h-link-topo' %>
+    </li> 
+    
+  <% end %>
+  

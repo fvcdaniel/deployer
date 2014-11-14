@@ -1,0 +1,19 @@
+<%= "Apps" %>
+
+<table>
+  <tr>
+    <th>Secretaria</th>
+    <th>Nome</th>
+  </tr>
+  <% for app in @apps %>
+    <tr>
+      <td><%= app.secretaria %></td>
+      <td><%= app.nome %></td>
+      <td><%= link_to "Show", app %></td>
+      <td><%= link_to "Edit", edit_app_path(app) %></td>
+      <td><%= link_to "Destroy", app, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New App", new_app_path %></p>

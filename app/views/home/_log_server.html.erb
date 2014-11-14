@@ -1,0 +1,26 @@
+<fieldset>
+	<legend>Logs do Sevidor</legend>
+
+	<table class="responsive" style="width:100%">
+
+		<thead>
+			<tr>
+				<th>Arquivo</th>
+				<th>Tamanho</th>
+				<th>Server</th>
+				<th>Download</th>
+			</tr>
+		</thead>
+		<tbody>
+			<% for log in @logs %>
+			<tr>
+			  	<td><%=log.file_name%></td>
+			  	<td><%=log.tamanho%></td>
+			  	<td><%=log.server%></td>
+				<td><%= link_to("Download", "/home/log?id=#{log.servidor}&file=#{log.file_name}&jserver=#{log.server}", target: :blank) %></td>
+			</tr>
+			<% end %>
+		</tbody>
+	</table>
+
+</fieldset>

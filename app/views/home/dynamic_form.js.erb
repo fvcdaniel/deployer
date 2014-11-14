@@ -1,0 +1,5 @@
+<% unless @app.blank? %>
+$('#dynamic_get_form').empty().append('<%= j render 'dynamic_get_form', :locals => {:app => @app} %>');
+<% else %>
+$('#dynamic_get_form').empty();
+<% end %>

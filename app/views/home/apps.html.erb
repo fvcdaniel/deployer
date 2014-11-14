@@ -1,0 +1,67 @@
+<br />
+<%if params[:sec]%>
+  <h3>Secretaria: <%= @sec.abreviatura.upcase %> </h3>
+<%end%>
+<%if params[:server]%>
+  <h3>Servidor: <%= @server.ip.upcase %> </h3>
+<%end%>
+<center>
+<table class="responsive" style="width:100%">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Nome</th>
+      <th>Atualizado em</th>
+      <th>Atualizado por</th>
+      <th>Última Ação</th>
+      <th>Tipo</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @apps.each do |a| %>
+      <input type="hidden" name="app_id" value="<%= a.id %>" />
+      <input type="hidden" name="op" id="op_<%= a.id%>" value="" />
+      <tr>
+        <td><%= link_to a.id, app_path(a.id) %></td>
+        <td><%= link_to a.nome, a.link %></td>
+        <td><%= a.updated_at.strftime("%d/%m/%Y %H:%m")%></td>
+        <td><%= a.user_acao.blank? ? "N/A" : "#{a.user_acao.first(7)}..."  %></td>
+        <td>
+          <%if a.ultima_acao %>
+            <!-- <a class="disabled button tiny <%= lastaction a.ultima_acao %>" href="#" style="margin:0"><%= lastactiontext a.ultima_acao %></a> -->
+            <%= lastactiontext a.ultima_acao %>
+          <% else %>
+            N/A
+          <% end %>
+        </td>
+        <td nowrap> 
+          <div class="small-9 columns">
+            <label>Escolha o tipo...</label>
+            <div class="small-12 columns">
+              <input type="radio" name="tipo_<%= a.id%>" value="H" id="tipoH_<%= a.id%>" checked="checked"><label for="tipoH_<%= a.id%>">Homologação</label>
+            </div>
+            <div class="small-12 columns">
+              <input type="radio" name="tipo_<%= a.id%>" value="P" id="tipoP_<%= a.id%>"><label for="tipoP_<%= a.id%>">Produção</label>
+            </div>
+          </div>
+        </td>
+        <td nowrap>
+          <a class="button tiny success action_app" acao="D" href="#" style="margin:0" app="<%= a.id%>" >Deploy</a>
+          <a class="button tiny action_app" acao="R" href="#" style="margin:0" app="<%= a.id%>" >Rollback</a>
+          <a class="button tiny alert action_app" acao="U" href="#" style="margin:0" app="<%= a.id%>" >Undeploy</a>
+        </td>
+      </tr>
+          <!--<a target="_blank" class="button tiny success" href="<%= "/deployer/deploy?app_id=#{a.id}&op=D" %>" style="margin:0">Deploy</a>
+          <a target="_blank" class="button tiny" href="<%= "/deployer/deploy?app_id=#{a.id}&op=R" %>" style="margin:0">Rollback</a>
+          <a target="_blank" class="button tiny alert" href="<%= "/deployer/deploy?app_id=#{a.id}&op=U" %>" style="margin:0">Undeploy</a>-->
+    <% end %>
+  </tbody>
+
+</table>
+
+<%if @apps.count == 0 %>
+  não há aplicações
+<%end%>
+</center>
+

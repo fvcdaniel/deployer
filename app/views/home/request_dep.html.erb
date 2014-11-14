@@ -1,0 +1,40 @@
+<br />
+<form>
+	<div class="row">
+		<div class="large-2 columns">
+			&nbsp;
+		</div>
+		<div class="large-8 columns centered">
+
+			<div class="small-12 columns">
+				<label>Selecione a Aplicação
+					<select id="app_selected" value="" >
+						<option value="" >SELECIONE...</option>
+						<% current_user.apps.each do |app| %>
+						<%= app.nome %>
+						<option value="<%= app.id %>" ><%= app.name.upcase %></option>
+						<% end %>
+					</select>
+				</label>
+			</div>
+			<div class="small-2 columns">
+				<a onclick="requestApp( $('#app_selected').val() )" class="button postfix" href="#">Go</a>
+			</div>
+		</div>
+		<div class="large-3 columns">
+			&nbsp;
+		</div>
+
+	</div>
+
+</form>
+
+
+<div class="row" id="dynamic_get_form">
+
+	<%if params[:app_id]%>
+		<%= render 'dynamic_get_form', :locals => {:app => @app} %>
+	<%end%>
+
+</div>
+

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  ip: MyString
+  port: 
+  path: MyString
+  dpath: MyString
+  tipo: MyString
+  duser: MyString
+
+two:
+  ip: MyString
+  port: 
+  path: MyString
+  dpath: MyString
+  tipo: MyString
+  duser: MyString

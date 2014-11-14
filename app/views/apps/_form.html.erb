@@ -1,0 +1,32 @@
+<%= nested_form_for @app, :html=>{:multipart => true } do |f| %>
+
+<p>
+  <%= f.label :secretaria %><br />
+  <%= f.select(:secretaria_id, Secretaria.where(:id => @app.secretaria.id).collect {|c| [ c.name, c.id ]} ) %>
+</p>
+<p>
+  <%= f.label :nome %><br />
+  <%= f.text_field :nome, :disabled => 'disabled' %>
+</p>
+
+  <%= f.fields_for :attachments do |attachment_form|  %>
+
+    <fieldset>
+      <legend>Fieldset Legend</legend>
+
+      <p>
+        <%= attachment_form.label :release_notes %><br />
+        <%= attachment_form.text_field :release_notes %>
+      </p>
+      <p>
+        <%= attachment_form.label :file %><br />
+        <%= attachment_form.file_field :file %>
+      </p>
+      <%= attachment_form.link_to_remove "Remove this attachment" %>
+    </fieldset>
+
+  <% end %>
+
+<%= f.link_to_add "Add attachment", :attachments %>
+<p><%= f.submit %></p>
+<% end %>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title><%= content_for?(:title) ? yield(:title) : "Codata Deployer" %></title>
+
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "vendor/modernizr" %>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+
+    <%= render "layouts/top_nav" %>
+    
+    <div class="row">
+      <header>
+        <%= render 'layouts/messages' %>
+      </header>
+
+      <%unless (params[:controller] == 'home' and params[:action] == 'index') %>
+        <div class="row">
+          <div class="small-6 large-2 columns">&nbsp;</div>
+          <div class="small-6 large-8 columns">
+            <div id="main-div-row">
+              &nbsp;
+            </div>
+          </div>
+          <div class="small-12 large-2 columns">&nbsp;</div>
+        </div>
+      <% end %>
+
+      <%= yield %>
+    </div>
+
+    <%= javascript_include_tag "application" %>
+  </body>
+</html>

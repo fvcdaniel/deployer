@@ -1,0 +1,77 @@
+
+<div class="large-2 columns">
+	&nbsp;
+</div>
+<div class="large-8 columns centered">
+
+	<%= form_for(@attachment, :url => app_attachments_path(@app)) do |attachment_form| %>
+	  <fieldset>
+		<legend>Submeter Novo Arquivo</legend>
+
+		<div class="small-12 columns">
+			<%= errors_for(@attachment, "Oops, não foi possível adicionar novo arquivo").html_safe %>
+
+			<p>Aplicação: <%= @app.nome %></p>
+			<%= attachment_form.label :release_notes %>
+			<%= attachment_form.text_area :release_notes, rows: 5 %>
+
+			<%= attachment_form.hidden_field :attachable_type, :value => 'App' %>
+			<%= attachment_form.hidden_field :attachable_id, :value => @app.id %>
+				
+			<%= attachment_form.label 'Escolha o arquivo' %>
+			<%= attachment_form.file_field :file %>
+			
+			<div style="visibility:hidden">
+		 		<%= attachment_form.submit 'Submeter', id: 'submit_btn' %> 
+		    </div>
+
+		</div>
+
+		
+		<div class="small-2 columns">
+			<a class="button postfix" onclick="document.getElementById('submit_btn').click()" href="#">Submeter</a>
+		</div>
+
+	  </fieldset>
+	<% end %>
+
+	<div class="small-2 columns">
+		<a class="button postfix" href="/home/request_dep">Voltar</a>
+	</div>
+
+	<table class="responsive" style="width:100%">
+
+		<thead>
+			<tr>
+				<th>Release Notes</th>
+				<th>Arquivo</th>
+				<th>Submetido em:</th>
+				<th>Por:</th>
+				<th>Ações</th>
+			</tr>
+		</thead>
+		<tbody>
+			<% for attach in @app.attachments %>
+			<tr>
+			  	<td>
+			  		<% if (attach.release_notes.length > 30) %>
+			  			<span data-tooltip aria-haspopup="true" class="has-tip" title="<%= attach.release_notes %>"><%= "#{attach.release_notes.first(30)}..." %></span>
+			  		<%else%>
+			  			<%= attach.release_notes %>
+			  		<%end%>
+			  	</td>
+				<td><%= link_to("Download", attach.file_url) %></td>
+				<td><%= attach.created_at.strftime("%d/%m/%Y %H:%m") %></td>
+				<td><%= (attach.user.blank? ? "N/A" : "#{attach.user.email.first(7)}...") %></td>
+				<td><%= link_to "Deletar", app_attachment_path(@app, attach), :confirm => 'Tem certeza que deseja deletar o arquivo?', :method => :delete, :remote => true %></td>
+			</tr>
+			<% end %>
+		</tbody>
+	</table>
+
+	<%= render 'log_server' %>
+
+</div>
+<div class="large-2 columns">
+	&nbsp;
+</div>
