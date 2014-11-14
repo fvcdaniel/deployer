@@ -5,6 +5,8 @@ class MyDevise::SessionsController < Devise::SessionsController
 
   def create
 
+    return super
+
   	@user = User.new(params[:user])
 
     settings = ActionMailer::Base.smtp_settings
